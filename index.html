@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MJK DigiHub</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Header with Logo -->
@@ -16,8 +16,9 @@
 
     <!-- Navigation Links -->
     <nav>
-        <a href="#about">About Us</a> |
-        <a href="#services">Our Services</a> |
+        <a href="#about">About Us</a>
+        <a href="#services">Our Services</a>
+        <a href="#future-plans">Future Plans</a>
         <a href="#contact">Contact Us</a>
     </nav>
 
@@ -55,9 +56,9 @@
     <section id="contact">
         <h2>Contact Us</h2>
         <p>
-            <a href="https://wa.me/919072906193" target="_blank">📱 WhatsApp: +91 9072906193</a><br>
-            <a href="tel:+919072906193">📞 Call: +91 9072906193</a><br>
-            <a href="mailto:MJKDigiHub@gmail.com">✉️ Email: MJKDigiHub@gmail.com</a>
+            <a href="javascript:void(0)" onclick="handleWhatsAppClick()">📱 WhatsApp: +91 9072906193</a><br>
+            <a href="javascript:void(0)" onclick="handleCallClick()">📞 Call: +91 9072906193</a><br>
+            <a href="javascript:void(0)" onclick="handleEmailClick()">✉️ Email: MJKDigiHub@gmail.com</a>
         </p>
     </section>
 
@@ -65,5 +66,7 @@
     <footer>
         <p>&copy; 2024 MJK DigiHub. All rights reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
