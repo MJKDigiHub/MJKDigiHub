@@ -1,28 +1,32 @@
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
+/* Basic reset */
+* {
     margin: 0;
     padding: 0;
-    color: #333;
-    line-height: 1.6;
-    background-color: #f9f9f9;
+    box-sizing: border-box;
 }
 
-/* Header Styles */
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
 header {
     background-color: #4CAF50;
     color: #fff;
     padding: 20px;
     text-align: center;
+    border-bottom: 4px solid #333;
 }
 
 header img {
-    display: block;
-    margin: 0 auto;
     margin-bottom: 10px;
 }
 
-/* Navigation Styles */
+/* Navigation styling */
 nav {
     text-align: center;
     margin: 15px 0;
@@ -32,54 +36,49 @@ nav a {
     color: #4CAF50;
     text-decoration: none;
     margin: 0 10px;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    color: #333;
 }
 
-/* Section Styles */
+/* Section styling */
 section {
-    max-width: 800px;
-    margin: 20px auto;
+    margin: 20px;
     padding: 20px;
     background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+/* Section Headers */
+section h2 {
+    margin-bottom: 10px;
     color: #4CAF50;
-    border-bottom: 2px solid #4CAF50;
-    padding-bottom: 5px;
 }
 
-/* List Styles */
-ul {
-    list-style-type: none;
-    padding: 0;
+/* Service and Future Plans List styling */
+section ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin: 10px 0;
 }
 
-ul li {
+/* Contact styling */
+#contact a {
+    display: block;
     margin: 5px 0;
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
 }
 
-/* Contact Icons */
-.icon {
-    width: 20px;
-    height: 20px;
-    vertical-align: middle;
-    margin-right: 8px;
-    cursor: pointer;
+#contact a:hover {
+    color: #333;
 }
 
-/* Footer Styles */
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: #fff;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
+/*
